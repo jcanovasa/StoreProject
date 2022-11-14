@@ -16,13 +16,13 @@ public class Products {
     @GeneratedValue(strategy = GenerationType.IDENTITY) //Primary key autoincremental
     private int id;
 
-    @Column(name = "title_product", nullable = false)
+    @Column(name = "title_product", length = 60, nullable = false)
     private String title;
 
     @Column(name =  "price", nullable = false)
     private float price;
 
-    @Column(name = "category", nullable = false)
+    @Column(name = "category",length = 60, nullable = false)
     private String category;
 
     @Column(name = "parameters")
