@@ -1,6 +1,6 @@
 package com.javaschool.project.model;
 
-import org.apache.commons.math3.analysis.function.Identity;
+//import org.apache.commons.math3.analysis.function.Identity;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
